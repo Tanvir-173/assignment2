@@ -30,6 +30,7 @@ header{
     align-items:center;
     justify-content:space-between;
     width:1140px;
+    
     height:71px;
     margin:0 auto;
 }
@@ -103,7 +104,8 @@ header{
 /* card */
 
 .card-container , .plant-lover{
-     width:1140px;
+      width:1140px;
+     
     margin:0 auto;
 }
 
@@ -236,7 +238,8 @@ header{
 @media screen and (max-width:576px) {
 
     .plant-lover{
-        width:100%;
+        /* width:100%; */
+        width:462px;
     }
     .plant-lover-cntainer{
         flex-direction:column;
