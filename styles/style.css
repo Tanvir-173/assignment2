@@ -208,3 +208,38 @@ main{
 
 
 }
+
+/* plant-lover */
+
+.plant-lover-cntainer h3{
+    font-size:50px;
+}
+
+.plant-lover{
+    margin-top:210px;
+}
+
+.plant-lover-cntainer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+@media screen and (max-width:576px) {
+    .plant-lover-cntainer{
+        flex-direction:column;
+    }
+    .plant-lover-cntainer img{
+
+        width:100%;
+        
+    }
+    .plant-lover{
+        margin-top:43px;
+    }
+
+    .plant-lover-cntainer{
+        font-size:24px;
+        text-align:left;
+    }
+}
