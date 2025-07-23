@@ -102,8 +102,7 @@ header{
 }
 
 /* card */
-
-.card-container , .plant-lover{
+.card-container,.plant-lover{
       width:1140px;
      
     margin:0 auto;
@@ -174,9 +173,13 @@ header{
     }
 
 @media screen and (max-width:576px){
-
+    main{
+        width:462px;
+    }
     .card-container {
-        width:100%;
+       /* width:100%; */
+       width:100%;
+        text-align:center;
     }
    .card-title-text .display-none-in-small-device{
         display:none;
@@ -238,8 +241,8 @@ header{
 @media screen and (max-width:576px) {
 
     .plant-lover{
-        /* width:100%; */
-        width:462px;
+         width:100%;
+    
     }
     .plant-lover-cntainer{
         flex-direction:column;
