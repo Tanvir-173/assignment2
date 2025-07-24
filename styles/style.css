@@ -261,3 +261,142 @@ header{
         text-align:left;
     }
 }
+
+/* join-section */
+
+.join-section{
+      
+       margin-top:100px;
+       height:533px;
+       background-image:url("../B12A02-Responsive-Flowers/assets/news-letter-bg.png");
+}
+.joni-section-input-and-button{
+    display:flex;
+    
+    justify-content:center;
+    width:850px;
+    height:55px;
+
+}
+
+.join-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.join-section h3{
+    margin-top:0;
+    font-size:50px;
+    color:white;
+}
+
+.joni-section-input-and-button input{
+    height:50px;
+    width:644px;
+    border:none;
+}
+.joni-section-input-and-button button{
+    height:50px;
+    width:186px;
+    background-color: #E95A08;
+    border:none;
+}
+
+@media screen and (max-width:576px) {
+    .join-section{
+          width:100%;
+         background-size:cover;
+         background-repeat: no-repeat;
+         
+  
+    }
+
+    .joni-section-input-and-button{
+   
+    width:321px;
+    height:50px;
+
+}
+
+.joni-section-input-and-button input{
+    height:50px;
+    width:218px;
+    border:none;
+}
+.joni-section-input-and-button button{
+    height:50px;
+    width:103px;
+    background-color: #E95A08;
+    border:none;
+}
+.join-section h3{
+   
+    font-size:20px;
+   
+}
+
+}
+
+
+/* footer */
+
+.home-feature ul{
+
+    list-style: none;
+
+}
+
+
+
+.home-feature ul{
+
+   display:grid;
+   grid-template-columns:repeat(2,200px);
+   column-gap:20px;
+   row-gap:32px;
+
+}
+
+footer{
+    display:flex;
+    justify-content:space-around;
+    margin-top:100px;
+}
+
+.social-media-logo img{
+    margin-left:20px;
+}
+
+@media screen and (max-width:576px) {
+
+    footer{
+    flex-direction:column;
+    text-align:left;
+    
+}
+.home-feature ul{
+
+  
+   grid-template-columns:repeat(1,auto);
+     
+
+}
+
+.social-media-logo{
+    margin-top:40px;
+}
+.left-right-links-home-feature{
+    margin-top:30px;
+}
+.left-right-links-home-feature ul{
+    padding-left: 0;
+}
+
+.social-media-logo .linkdein-logo{
+    margin-left:0;
+
+}
+
+}
