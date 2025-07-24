@@ -369,6 +369,8 @@ footer{
     margin-left:20px;
 }
 
+
+
 @media screen and (max-width:576px) {
 
     footer{
@@ -397,6 +399,13 @@ footer{
 .social-media-logo .linkdein-logo{
     margin-left:0;
 
+}
+
+.footer-dislplay-for-large-device{
+    display:none;
+}
+.for-small-device-footer{
+    display:block;
 }
 
 }
