@@ -535,3 +535,96 @@ footer{
     flex-direction: column;
     gap:25px;
 }
+@media screen and (min-width:992px){
+    .latest-deals-for-small-device{
+        display:none;
+
+    }
+}
+@media screen and (max-width:576px){
+    .latest-deals{
+        display:none;
+
+    }
+    .text-latest-for-small-device{
+    color:#E95A08;
+}
+.text-latest-for-small-device h3{
+    font-size:24px;
+   
+}
+
+.latest-deals-for-small-device{
+    text-align:center;
+
+}
+
+.Zobo-plant-small-device h6{
+    color:#FFFFFF;
+    font-size:20px;
+     margin:0;
+    
+    }
+
+.Zobo-plant-small-device p{
+    color:#FFFFFF;
+}
+.Bloom-plant-small-device h6{
+    color:#FFFFFF;
+    font-size:20px;
+     margin:0;
+    
+    }
+
+.Bloom-plant-small-device p{
+    color:#FFFFFF;
+}
+.ana-plant-small-device h6{
+    color:#FFFFFF;
+    font-size:20px;
+     margin:0;
+    
+    }
+
+.ana-plant-small-device p{
+    color:#FFFFFF;
+}
+
+.Bloom-plant-small-device{
+      width:100%;
+      height:184px;
+      background-image:url(../B12A02-Responsive-Flowers/assets/deal-bloom.png);
+      background-size: cover;
+       display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ana-plant-small-device{
+      width:100%;
+      height:184px;
+      background-image:url(../B12A02-Responsive-Flowers/assets/deal-ana.png);
+      background-size: cover;
+      margin-top:20px;
+       display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Zobo-plant-small-device{
+      width:100%;
+      height:184px;
+      background-image:url(../B12A02-Responsive-Flowers/assets/deal-zabo.png);
+      background-size: cover;
+      margin-top:20px;
+       display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+}
