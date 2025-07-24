@@ -227,7 +227,8 @@ header{
 }
 
 .plant-lover{
-    margin-top:210px;
+    margin-top:0;
+   
 }
 
 .plant-lover-cntainer{
@@ -236,9 +237,37 @@ header{
     align-items:center;
 }
 
+.plant-lover-badge img{
+    height:248px;
+    width:286px;
+    
+}
+
+.plant-lover-badge{
+       height:248px;
+    width:286px;
+}
+
+/* .plant-lover img{
+    height:569px;
+} */
+
+@media screen and (min-width:992px){
+
+    .plant-lover-badge{
+        position:relative;
+        top:120px;
+        left:350px;
+    }
+
+}
+
 
 
 @media screen and (max-width:576px) {
+    .plant-lover-badge{
+        display:none;
+    }
 
     .plant-lover{
          width:100%;
@@ -415,6 +444,7 @@ footer{
 .latest-deals{
     width:1140px;
     margin:0 auto;
+    margin-top:100px;
 }
 .latest-deals-text-content h3{
     font-size:50px;
